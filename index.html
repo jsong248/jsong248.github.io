@@ -1,1 +1,70 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Name - Personal Website</title>
+    <style>
+      /* Style for portrait */
+      .portrait {
+        width: 200px;
+        height: 200px;
+        background-image: url(Professional_headshot.jpg);
+        background-size: cover;
+        background-position: center top;
+        border: 2px; margin-bottom: 10px;
+      }
+
+      /* Style for contact information */
+      .contact-info {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      /* Style for social media links */
+      .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .social-media a {
+        display: block;
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .social-media a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Portrait -->
+      <div class="portrait"></div>
+
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <p>James Song</p>
+        <p>603 E. Huron St. Ann Arbor MI 48104 United States</p>
+        <p>Phone: (734) 834-6578</p>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="social-media">
+        <a href="#">FB</a>
+        <a href="#">TW</a>
+        <a href="#">IG</a>
+      </div>
+    </div>
+  </body>
+</html>
